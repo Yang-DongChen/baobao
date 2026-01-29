@@ -13,9 +13,6 @@ const swiperModules = [Autoplay, EffectCards];
 const heroImageLocal = ref('/baba-hero.jpg')
 const avatar = ref('/avatar.jpg') 
 
-// 🔥 相册数据修改 🔥
-// 1. 删除了网络占位图。
-// 2. 仅保留本地路径作为示例。请确保你的 public 文件夹里有这些照片，或者使用下方的“添加照片”按钮上传。
 const photos = ref([
   '/photo1.jpg',
   '/photo2.jpg',
